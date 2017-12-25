@@ -1,0 +1,65 @@
+*{margin:0;padding:0;}
+body{
+	
+	height:100%;
+	line-height:25px;
+	font-size:14px;
+	font-family:sans-sarifarif;
+	background:#F0F0F0;
+}
+.main{
+	
+	width: 1140px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+	
+}
+.header_area{
+	
+}
+.logo{
+	padding:35px 15px;
+	font-family: sans-serif
+}
+.logo h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.logo p{
+    font-size: 16px;
+}
+.menu{
+	height:45px;
+	background: #1F1E1E;
+    border-bottom: 5px solid #008ccb;
+}
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+.menu ul li{
+	float:left;
+	display:inline-block;
+	margin-right:-4px;
+	border-right:1px solid gainsboro;
+	position:relative;
+	
+}
+.menu ul li a{
+	display:block;
+	padding:10px 15px;
+	text-decoration:none;
+	font-size:15px;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+	
+}
+.menu ul li a:hover{
+	background:#008ccb;
+	color:#fff;
+	transition: background 0.5s ease;
+}
